@@ -39,10 +39,12 @@
 
     <Button
         android:id="@+id/getStartedButton"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:text="GET STARTED" />
+        android:background="@color/teal_700"
+        android:text="GET STARTED"
+        app:iconTint="#03A9F4" />
 
 </RelativeLayout>
