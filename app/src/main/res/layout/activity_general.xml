@@ -6,4 +6,87 @@
     android:layout_height="match_parent"
     tools:context=".GeneralActivity">
 
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/p1"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-79dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="116dp"
+        android:text="LogIn to Job Search"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="303dp" />
+
+    <EditText
+        android:id="@+id/nameEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/logInButton"
+        android:layout_centerHorizontal="true"
+        android:background="@color/white"
+        android:hint="Enter Name"
+        android:padding="5dp"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="382dp" />
+
+    <EditText
+        android:id="@+id/emailEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/logInButton"
+        android:layout_centerHorizontal="true"
+        android:background="@color/white"
+        android:hint="Enter Email"
+        android:padding="5dp"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="431dp" />
+
+    <EditText
+        android:id="@+id/passwordEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/logInButton"
+        android:layout_centerHorizontal="true"
+        android:background="@color/white"
+        android:hint="Enter Password"
+        android:padding="5dp"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="488dp" />
+
+    <EditText
+        android:id="@+id/locationEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/logInButton"
+        android:layout_centerHorizontal="true"
+        android:background="@color/white"
+        android:hint="Enter Zip Code"
+        android:padding="5dp"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="549dp" />
+
+    <Button
+        android:id="@+id/logInButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/teal_700"
+        android:text="LOG IN"
+        app:iconTint="#03A9F4"
+        tools:layout_editor_absoluteX="-38dp"
+        tools:layout_editor_absoluteY="678dp" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
