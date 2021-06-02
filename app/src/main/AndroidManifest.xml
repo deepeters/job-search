@@ -1,22 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.jobsearch">
+    package="com.example.tuze.bluecollar">
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/icon"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.JobSearch">
-        <activity android:name=".GeneralActivity"></activity>
-        <activity android:name=".MainActivity">
+        android:theme="@style/AppTheme">
+        <!--android:largeHeap="true"
+        android:hardwareAccelerated="false">-->
+        <activity
+            android:name=".activities.HomeActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.ProfileActivity"
+            android:label="@string/title_activity_profile"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.SettingsActivity"
+            android:label="@string/title_activity_settings" />
+        <activity
+            android:name=".activities.SignupActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.LoginActivity"
+            android:theme="@style/SplashTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".activities.CreateJobPostActivity"
+            android:label="@string/title_activity_create_job_post"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.UploadImageActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".activities.ApplicationsActivity" />
+        <activity
+            android:name=".activities.ZoomImageActivity"
+            android:theme="@style/SplashTheme" />
+        <activity android:name=".activities.UserCreatedJobsActivity" />
+        <activity android:name=".activities.ApplicantsActivity"></activity>
     </application>
 
 </manifest>
