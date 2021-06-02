@@ -79,7 +79,7 @@
             <Button
                 android:id="@+id/btnGoogle"
                 android:layout_width="wrap_content"
-                android:layout_height="62dp"
+                android:layout_height="92dp"
                 android:layout_marginTop="10dp"
                 android:background="@drawable/login_google" />
 
