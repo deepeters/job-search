@@ -42,7 +42,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
     Button btnLogin;
     @BindView(R.id.btnSignup)
     Button btnSignUp;
-    @BindView(R.id.btnGoogle)
+    @BindView(R.id.btnLinkedIn)
     Button btnGoogle;
     @BindView(R.id.loginInputEmail)
     EditText loginInputEmail;
@@ -175,7 +175,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
             finish();
         } else if (id == R.id.btnLogin) {
             loginWithEmailPassword();
-        } else if (id == R.id.btnGoogle) {
+        } else if (id == R.id.btnLinkedIn) {
 
         }
     }
