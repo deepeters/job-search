@@ -19,17 +19,17 @@
         swipedeck:rotation_degrees="15" />
 
 
-   <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="bottom|center"
-        android:layout_marginBottom="20dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
-        android:background="@drawable/home_button_background"
-        android:text="FILTER"
-        android:textColor="@color/colorPrimaryDark"
-        android:textStyle="bold" />
+<!--   <Button-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_gravity="bottom|center"-->
+<!--        android:layout_marginBottom="20dp"-->
+<!--        android:layout_marginLeft="20dp"-->
+<!--        android:layout_marginRight="20dp"-->
+<!--        android:background="@drawable/home_button_background"-->
+<!--        android:text="FILTER"-->
+<!--        android:textColor="@color/colorPrimaryDark"-->
+<!--        android:textStyle="bold" />-->
    <LinearLayout
        android:layout_width="match_parent"
        android:layout_height="wrap_content"
@@ -37,17 +37,17 @@
        android:gravity="center"
        android:orientation="horizontal">
 
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/fabFilter"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:src="@mipmap/like"
-        app:rippleColor="@android:color/holo_purple"
-        android:layout_marginBottom="10dp"
-        swipedeck:rippleColor="@android:color/white"
-        swipedeck:fabSize="mini"
-        swipedeck:elevation="15dp" />
+<!--    <com.google.android.material.floatingactionbutton.FloatingActionButton-->
+<!--        android:id="@+id/fabFilter"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:src="@mipmap/like"-->
+<!--        app:rippleColor="@android:color/holo_purple"-->
+<!--        android:layout_marginBottom="10dp"-->
+<!--        swipedeck:rippleColor="@android:color/white"-->
+<!--        swipedeck:fabSize="mini"-->
+<!--        swipedeck:elevation="15dp" />-->
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/fabLike"
@@ -61,17 +61,17 @@
         swipedeck:fabSize="normal"
         swipedeck:elevation="15dp" />
 
-       <com.google.android.material.floatingactionbutton.FloatingActionButton
-           android:id="@+id/fabDisLike"
-           android:layout_width="wrap_content"
-           android:layout_height="wrap_content"
-           android:src="@mipmap/dislike"
-           app:rippleColor="@android:color/holo_orange_dark"
-           android:layout_marginBottom="10dp"
-           swipedeck:backgroundTint="@android:color/holo_orange_dark"
-           swipedeck:rippleColor="@android:color/white"
-           swipedeck:elevation="15dp"
-           swipedeck:fabSize="mini" />
+<!--       <com.google.android.material.floatingactionbutton.FloatingActionButton-->
+<!--           android:id="@+id/fabDisLike"-->
+<!--           android:layout_width="wrap_content"-->
+<!--           android:layout_height="wrap_content"-->
+<!--           android:src="@mipmap/dislike"-->
+<!--           app:rippleColor="@android:color/holo_orange_dark"-->
+<!--           android:layout_marginBottom="10dp"-->
+<!--           swipedeck:backgroundTint="@android:color/holo_orange_dark"-->
+<!--           swipedeck:rippleColor="@android:color/white"-->
+<!--           swipedeck:elevation="15dp"-->
+<!--           swipedeck:fabSize="mini" />-->
 
    </LinearLayout>-->
  <!--   <RelativeLayout
