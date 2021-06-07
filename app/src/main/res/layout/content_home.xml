@@ -19,7 +19,7 @@
         swipedeck:rotation_degrees="15" />
 
 
- <!--   <Button
+   <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|center"
@@ -29,15 +29,15 @@
         android:background="@drawable/home_button_background"
         android:text="FILTER"
         android:textColor="@color/colorPrimaryDark"
-        android:textStyle="bold" />-->
-   <!--<LinearLayout
+        android:textStyle="bold" />
+   <LinearLayout
        android:layout_width="match_parent"
        android:layout_height="wrap_content"
        android:layout_gravity="bottom"
        android:gravity="center"
        android:orientation="horizontal">
 
-    <android.support.design.widget.FloatingActionButton
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/fabFilter"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -49,7 +49,7 @@
         swipedeck:fabSize="mini"
         swipedeck:elevation="15dp" />
 
-    <android.support.design.widget.FloatingActionButton
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/fabLike"
         android:layout_width="65dp"
         android:layout_height="65dp"
@@ -61,7 +61,7 @@
         swipedeck:fabSize="normal"
         swipedeck:elevation="15dp" />
 
-       <android.support.design.widget.FloatingActionButton
+       <com.google.android.material.floatingactionbutton.FloatingActionButton
            android:id="@+id/fabDisLike"
            android:layout_width="wrap_content"
            android:layout_height="wrap_content"
@@ -77,7 +77,7 @@
  <!--   <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-    <android.support.design.widget.FloatingActionButton
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/fabLike"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
