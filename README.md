@@ -48,4 +48,10 @@ This is a Java-Android Application that utilises the LinkedIn API to search avai
 1. Bootstrap
 2. Material Design Bootstrap.
 
+### Notes
+* This application runs on Firebase Realtime Database.
+* This application must be ran on a minimum API of 30.
+* This application is still under development and improvements.
+
+
 ### LICENSE: [MIT LICENSE](https://raw.githubusercontent.com/deepeters/job-search/master/LICENSE)
