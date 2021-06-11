@@ -4,11 +4,13 @@
 ### Project Description
 This is a Java-Android Application that utilises the LinkedIn API to search available jobs and also set up user profiles for job applications.
 
-<img src="/1.png">
-<img src="/2.png">
-<img src="/3.png">
-<img src="/4.png">
-<img src="/5.png">
+<img src="/1.png" height="400" width="230"> <img src="/2.png" height="400" width="230">
+
+
+<img src="/3.png" height="400" width="230"> <img src="/4.png" height="400" width="230">
+
+
+<img src="/5.png" height="400" width="230">
 
 ### Setup Instructions
 
